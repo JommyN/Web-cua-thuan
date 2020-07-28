@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Jom Nguyen</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Quicksand&family=Raleway+Dots&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+  <style>
+    .fakeimg {
+      height: 200px;
+      background: #aaa;
+    }
+
+    body {
+      position: relative;
+    }
+
+    .homebg {
+      background-image: url('./images/home2.png');
+      background-size: cover;
+    }
+
+    .homebg img {
+      width: 100vw;
+    }
+
+    .link {
+      position: fixed;
+      color: #fff;
+      top: 30%;
+      right: 0%;
+      z-index: 1000;
+    }
+
+    .link a {
+      font-family: 'Raleway Dots', cursive;
+      text-align: right;
+      margin-right: 100px;
+      display: block;
+      font-size: 20px;
+      right: 5%;
+    }
+
+    .link a {
+      color: #fff;
+
+    }
+
+    .container {
+      margin-top: 1400px;
+    }
+
+
+    h1 {
+      color: #fff;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .navbar-brand {
+      font-family: 'Raleway Dots', cursive;
+    }
+
+    p {
+      color: #fff;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    .card {
+      margin: 20px 20px
+    }
+
+    .cardlist {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 650px;
+    }
+
+    .card-img {
+      height: 200px;
+    }
+
+    .vfx {
+      margin-top: 500px;
+    }
+    .Contact{
+      margin-top: 600px;
+    }
+    .footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black
+  color: white;
+  text-align: left;
+}
+.icon-bar {
+  position: fixed;
+  bottom: -5%;
+  right: 5%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+.check {
+  margin-top: 24px;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+    
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar sticky-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">JomN</a>
+
+    </div>
+    <div nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <form class="form-inline" action="/action_page.php">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-light" type="submit">Search</button>
+      </form>
+  </nav>
+
+
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+   <div class="link">
+      <a href="index.html">Somewords</a>
+      <a href="artworks.html">Artworks</a>
+      <a href="animation.html">Animation</a>
+      <a href="index.html#section4">VFX</a>
+      <a href="index.html#section5">Contact</a>
+    </div>
+<video autoplay muted loop id="myVideo">
+  <source src="./videos/Cước Thần A ni mây sần.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+
+</video>
+
+<div class="content">
+  <h1>Red Riding hood</h1>
+  <p>It's just the trailer for the famous story "Red Riding Hood" I made while learning Animation subject. Enjoy!</p>
+  <button id="myBtn" onclick="myFunction()">Pause</button> 
+   <a href="animation2.html" class="btn btn-success" role="button">IN THE MAKING</a>
+  <h1>CHECK OUT MY YOUTUBE CHANNEL FOR SOME MORE VIDEOS!   >>>></h1>
+</div>
+
+
+</div>
+
+
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+<img src="2-2.png">
+
+
+
+
+</body>
+
+
+<div class="icon-bar">
+  <a href="https://www.facebook.com/jommyjommyjommy" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://www.instagram.com/jom_ngoen/" class="fa fa-instagram"></a>
+  <p>   </p>
+   <p>   </p>
+    <p>   </p>
+  <a href="https://www.youtube.com/channel/UC_K3EKzNv9njoI-knRXXQIg?view_as=subscriber" class="fa fa-youtube"></a>
+</div>
+
+
+
+
+
+
+
+        </html>

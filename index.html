@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Jom Nguyen</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Quicksand&family=Raleway+Dots&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+  <style>
+    .fakeimg {
+      height: 200px;
+      background: #aaa;
+    }
+
+    body {
+      position: relative;
+    }
+
+    .homebg {
+      background-image: url('./images/home2.png');
+      background-size: cover;
+    }
+
+    .homebg img {
+      width: 100vw;
+    }
+
+    .link {
+      position: sticky;
+      color: #fff;
+      top: 30%;
+      right: 15%;
+    }
+
+    .link a {
+      font-family: 'Raleway Dots', cursive;
+      text-align: right;
+      margin-right: 100px;
+      display: block;
+      font-size: 20px;
+      right: 5%;
+    }
+
+    .link a {
+      color: #fff;
+
+    }
+
+    .container {
+      margin-top: 1400px;
+    }
+
+
+    h1 {
+      color: #fff;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .navbar-brand {
+      font-family: 'Raleway Dots', cursive;
+    }
+
+    p {
+      color: #fff;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    .card {
+      margin: 20px 20px
+    }
+
+    .cardlist {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 650px;
+    }
+
+    .card-img {
+      height: 200px;
+    }
+
+    .vfx {
+      margin-top: 500px;
+    }
+    .Contact{
+      margin-top: 600px;
+    }
+    .footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black
+  color: white;
+  text-align: left;
+}
+.icon-bar {
+  position: fixed;
+  bottom: 0%;
+  right: 5%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+    
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar sticky-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="#section1">JomN</a>
+
+    </div>
+    <div nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <form class="form-inline" action="/action_page.php">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-light" type="submit">Search</button>
+      </form>
+  </nav>
+
+   <div class="section1">
+  <section></section>
+</div>
+
+<div class="section1" id="section1">
+</div>
+
+
+  <div class="homebg">
+    <div class="link">
+      <a href="#section1">Somewords</a>
+      <a href="#section2">Artworks</a>
+      <a href="#section3">Animation</a>
+      <a href="#section4">VFX</a>
+      <a href="#section5">Contact</a>
+    </div>
+
+      <div class="container">
+  <section></section>
+</div>
+
+<div class="container" id="section2">
+</div>
+
+    <div class="container">
+
+      <hr class="w-50 mx-auto pt-10">
+
+      <div class="row">
+        <div class="col col-lg-8">
+          <img src="./images/painting1.png" class="img-fluid" width="700" height="500">
+        </div>
+
+        <div class="col col-lg-4 d-flex flex-column align-items-end">
+          <h1>Man on the moon</h1>
+          <p>Acrylic on canvas</p>
+          <p>50x70cm</p>
+          <p>2020</p>
+          <a href="artworks.html" class="btn btn-primary"><p>Is there anything else?</p></a>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+  <section></section>
+</div>
+
+<div class="container-fluid" id="section3">
+</div>
+
+      <div class="container-fluid">
+        <div class="cardlist">
+          <div class="card bg-dark">
+            <img src="./images/Vintata.jpg" class="img-fluid card-img" />
+            <div class="card-body">
+              <h1 class="card-title">VINTATA</h1>
+              <p class="text-justify" class="card-text">I was trained in VINTATA as a Junior 3D Animator. These are some of my works that represent my 3D animation skills.</p>
+              <a href="animation.html" class="btn btn-primary"><p>Check it out!</p></a>
+            </div>
+          </div>
+          <div class="card bg-dark">
+            <img src="./images/Anim.png" class="img-fluid card-img" />
+            <div class="card-body">
+              <h1 class="card-title">Red Riding Hood</h1>
+              <p class="text-justify" class="card-text">Red riding hood - The First 2D Animation I've made, it's
+                also the project for Animation subject on class that I'm super proud of.</p>
+              <a href="animation.html" class="btn btn-primary"><p>Check it out!</p></a>
+            </div>
+          </div>
+          <div class="card bg-dark">
+            <img src="./images/HOC.png" class="img-fluid card-img" />
+            <div class="card-body">
+              <h1 class="card-title">History of Cars</h1>
+              <p class="text-justify" class="card-text">Just a project I did while studing the subject "Digital 2D tool" (Adobe After Effect) quite fun to work on imo.</p>
+              <a href="animation.html" class="btn btn-primary"><p>Check it out!</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+            <div class="vfx">
+  <section></section>
+</div>
+
+<div class="vfx" id="section4">
+</div>
+
+      <div class="vfx">
+        <hr class="w-50 mx-auto pt-5">
+  
+        <div class="row mb-4 m1-4 mr-4">
+          <div class="col-lg-4 pt-5 mx-auto">
+            <img class="img-fluid" src="./Images/ATDDT3.png" alt="Card image">
+          </div>
+  
+          <div class="col-lg-4 pt-5 mx-auto">
+            <img class="img-fluid" src="./Images/ATDDT.png" alt="Card image">
+          </div>
+  
+          <div class="col-lg-4 pt-5 mx-auto">
+            <img class="img-fluid" src="./Images/ATDDT.png" alt="Card image">
+          </div>
+  
+          <div class="col-lg-4 pt-5 mx-auto">
+            <img class="img-fluid" src="./Images/1.png" alt="Card image">
+          </div>
+  
+          <div class="col-lg-4 pt-5 mx-auto">
+            <img class="img-fluid" src="./Images/2.png" alt="Card image">
+          </div>
+  
+          <div class="col-lg-4 pt-5 mx-auto">
+            <img class="img-fluid" src="./Images/3.png" alt="Card image">
+          </div>
+      </div>
+
+                  <div class="Contact">
+  <section></section>
+</div>
+
+<div class="Contact" id="section5">
+</div>
+
+    <div class="Contact">
+  <form action="/action_page.php">
+    <div>
+  <div class="form-group">
+    <label for="email"><p>Email address:</p></label>
+    <input type="email" class="form-control" placeholder="Enter email" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd"><p>Password:</p></label>
+    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+  </div>
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> <p>Remember me</p>
+    </label>
+  </div>
+  <button type="submit" class="btn btn-success">Sign in</button>
+</form>
+<p> </p>
+<div class="form-group">
+  <label for="comment"><p>DM me</p></label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+  <button type="button" class="btn btn-success btn-block">Send</button>
+</div>
+</div>
+
+
+
+    </div>
+
+    <div class="footer">
+  <p>All right reserved 2020</p>
+</div>
+
+<div class="icon-bar">
+  <a href="https://www.facebook.com/jommyjommyjommy" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://www.instagram.com/jom_ngoen/" class="fa fa-instagram"></a>
+  <a href="https://www.youtube.com/channel/UC_K3EKzNv9njoI-knRXXQIg?view_as=subscriber" class="youtube"><i class="fa fa-youtube"></i></a>
+</div>
+
+
+
+    
+        </html>
